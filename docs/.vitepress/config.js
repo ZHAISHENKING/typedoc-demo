@@ -3,7 +3,7 @@ import apidocConfig from '../apidocConfig.json';
 
 export default defineConfig({
   title: 'demo文档',
-  base: '/docs/',
+  base: '/typedocs/',
 
   themeConfig: {
     nav: [
