@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // 根目录
 function rootPath (...args) {
-  return path.join(__dirname, '.', ...args)
+  return path.join(__dirname, '..', ...args)
 }
 
 // 主函数

@@ -7,8 +7,8 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: '使用指南', link: '/index' },
-      { text: '工具方法', link: '/dist/readme' }
+      { text: '使用指南', link: '/guide/README' },
+      { text: '工具方法', link: '/dist/README' }
     ],
     sidebar: {
       '/dist/': apidocConfig,

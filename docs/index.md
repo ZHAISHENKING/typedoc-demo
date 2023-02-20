@@ -9,8 +9,8 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/readme
+      link: /guide/README
     - theme: default
       text: API 文档
-      link: /dist/readme
+      link: /dist/README
 ---
