@@ -16,4 +16,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/ZHAISHENKING/docs.git master:gh-pages
+git push -f https://github.com/ZHAISHENKING/typedocs.git master:gh-pages
