@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "docs:dev": "node typedoc.js && vitepress dev .",
+    "docs:build": "node typedoc.js && vitepress build .",
+    "docs:serve": "vitepress serve ."
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "typedoc": "0.23.24",
+    "typedoc-plugin-markdown": "3.14.0",
+    "vitepress": "1.0.0-alpha.22",
+    "typescript": "~4.7.4",
+    "vite": "^2.8.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "license": "CC BY-NC 4.0"
+}
