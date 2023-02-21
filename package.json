@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "prepare": "npx husky install",
     "docs:dev": "node docs/typedoc.js && vitepress dev docs",
