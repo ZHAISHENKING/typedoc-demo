@@ -5,7 +5,8 @@
     "prepare": "npx husky install",
     "docs:dev": "node docs/typedoc.js && vitepress dev docs",
     "docs:build": "node docs/typedoc.js && vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "release": "release-it"
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.6.0",
@@ -14,6 +15,7 @@
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "pretty-quick": "^2.0.1",
+    "release-it": "^15.6.0",
     "typedoc": "0.23.24",
     "typedoc-plugin-markdown": "3.14.0",
     "typescript": "~4.7.4",
@@ -29,6 +31,7 @@
   "dependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@release-it/conventional-changelog": "^5.1.1",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^8.34.0",
