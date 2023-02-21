@@ -1,3 +1,5 @@
+## [0.0.3](https://github.com/ZHAISHENKING/typedoc-demo/compare/0.0.2...0.0.3) (2023-02-21)
+
 ## [0.0.2](https://github.com/ZHAISHENKING/typedoc-demo/compare/0.0.1...0.0.2) (2023-02-21)
 
 ### ✨ 新功能
