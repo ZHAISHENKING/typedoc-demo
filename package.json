@@ -29,8 +29,11 @@
   "dependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^8.34.0",
-    "eslint-plugin-import": "^2.27.5"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-vue": "^9.9.0"
   },
   "lint-staged": {
     "*.{vue,js,ts,jsx,tsx,json}": "eslint --fix",
